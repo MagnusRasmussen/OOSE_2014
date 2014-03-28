@@ -1,0 +1,13 @@
+C:\Users\Keown\Documents\Projects\BlackJack\Main\bin\Debug\Main.dll
+C:\Users\Keown\Documents\Projects\BlackJack\Main\bin\Debug\Main.pdb
+C:\Users\Keown\Documents\Projects\BlackJack\Main\bin\Debug\Main.dll.mdb
+C:\Users\Keown\Documents\Projects\BlackJack\Main\bin\Debug\Main.Main.apk
+C:\Users\Keown\Documents\Projects\BlackJack\Main\bin\Debug\Main.Main-Signed.apk
+C:\Users\Keown\Documents\Projects\BlackJack\Main\obj\Debug\Main.dll
+C:\Users\Keown\Documents\Projects\BlackJack\Main\obj\Debug\Main.pdb
+C:\Users\Keown\Documents\Projects\BlackJack\Main\obj\Debug\android\bin\Main.Main.apk
+C:\Users\Keown\Documents\Projects\BlackJack\Main\obj\Debug\res\layout\main.xml
+C:\Users\Keown\Documents\Projects\BlackJack\Main\obj\Debug\res\values\strings.xml
+C:\Users\Keown\Documents\Projects\BlackJack\Main\obj\Debug\res\drawable\icon.png
+C:\Users\Keown\Documents\Projects\BlackJack\Main\obj\Debug\R.cs.flag
+C:\Users\Keown\Documents\Projects\BlackJack\Main\obj\Debug\uploadflags.txt
