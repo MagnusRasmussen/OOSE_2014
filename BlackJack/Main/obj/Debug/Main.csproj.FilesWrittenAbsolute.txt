@@ -1,0 +1,13 @@
+/Users/nicklasskov/OOSE_2014/BlackJack/Main/obj/Debug/MonoAndroid,Version=v4.0.3.AssemblyAttribute.cs
+/Users/nicklasskov/OOSE_2014/BlackJack/Main/bin/Debug/Main.dll.mdb
+/Users/nicklasskov/OOSE_2014/BlackJack/Main/bin/Debug/Main.dll
+/Users/nicklasskov/OOSE_2014/BlackJack/Main/bin/Debug/Main.Main.apk
+/Users/nicklasskov/OOSE_2014/BlackJack/Main/obj/Debug/android/bin/Main.Main.apk
+/Users/nicklasskov/OOSE_2014/BlackJack/Main/obj/Debug/res/layout/main.xml
+/Users/nicklasskov/OOSE_2014/BlackJack/Main/obj/Debug/res/values/strings.xml
+/Users/nicklasskov/OOSE_2014/BlackJack/Main/obj/Debug/res/drawable/icon.png
+/Users/nicklasskov/OOSE_2014/BlackJack/Main/obj/Debug/R.cs.flag
+/Users/nicklasskov/OOSE_2014/BlackJack/Main/bin/Debug/Main.Main-Signed.apk
+/Users/nicklasskov/OOSE_2014/BlackJack/Main/obj/Debug/uploadflags.txt
+/Users/nicklasskov/OOSE_2014/BlackJack/Main/obj/Debug/Main.dll
+/Users/nicklasskov/OOSE_2014/BlackJack/Main/obj/Debug/Main.dll.mdb
