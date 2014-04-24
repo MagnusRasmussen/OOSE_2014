@@ -1,0 +1,4 @@
+C:\Users\Magnus\Documents\Projects\Betting_bitches\Betting_bitches\bin\Debug\Betting_bitches.exe
+C:\Users\Magnus\Documents\Projects\Betting_bitches\Betting_bitches\bin\Debug\Betting_bitches.pdb
+C:\Users\Magnus\Documents\Projects\Betting_bitches\Betting_bitches\obj\x86\Debug\Betting_bitches.exe
+C:\Users\Magnus\Documents\Projects\Betting_bitches\Betting_bitches\obj\x86\Debug\Betting_bitches.pdb
