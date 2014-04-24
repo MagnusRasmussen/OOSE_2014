@@ -30,10 +30,12 @@ namespace Blackjack_Collected
 
 		public void Deal(Hand hand)
 		{
-			var card = this.cards.FirstOrDefault();
-			hand.AddCard (card);
-		
-			this.cards.Remove(card);
+			for (int deal = 0; deal > 2; deal++) {
+				var card = this.cards.FirstOrDefault ();
+				hand.AddCard (card);
+				this.cards.Remove (card);
+			}
+
 
 		}
 
@@ -55,7 +57,7 @@ namespace Blackjack_Collected
                 {
 
                     var card = cards[i];
-                    Console.WriteLine(card.Suite + " " + card.Rank);
+					Console.WriteLine(card.Suite + " " + (int)card.Rank);
 
                 }
                 Console.ReadLine();
