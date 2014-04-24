@@ -1,0 +1,4 @@
+C:\Users\Keown\Documents\BlackJackConsole\BlackJackConsole\bin\Debug\BlackJackConsole.exe
+C:\Users\Keown\Documents\BlackJackConsole\BlackJackConsole\bin\Debug\BlackJackConsole.pdb
+C:\Users\Keown\Documents\BlackJackConsole\BlackJackConsole\obj\x86\Debug\BlackJackConsole.exe
+C:\Users\Keown\Documents\BlackJackConsole\BlackJackConsole\obj\x86\Debug\BlackJackConsole.pdb
