@@ -45,13 +45,14 @@ namespace BlackJackConsole
             //    //Console.WriteLine();
             //}
             //Console.ReadLine();
-            Shuffle();
+
 		}
 
 
 		public void Shuffle()
 		{
-			this.cards.OrderBy(a => Guid.NewGuid()).ToList();
+			cards = cards.OrderBy(c => Guid.NewGuid()).ToList();     
+			
 
             //var card = this.cards.FirstOrDefault();
             //Console.WriteLine(card.Rank + "" + card.Rank);
@@ -73,27 +74,25 @@ namespace BlackJackConsole
 
 			var card = this.cards.FirstOrDefault();
 			hand.AddCard(this.cards.First());
-
-			this.cards.Remove(card);
-
-
-		
+            this.cards.Remove(card);
+            		
 		}
 
-        public void DispalyDeck(){
-            		{
-            int i;
-           
-           for (i = 0; i < 52; i++)
+        public void DispalyDeck()
+        {
             {
-           
+                int i;
+
+                for (i = 0; i < cards.Count; i++)
+                {
+
                     var card = cards[i];
                     Console.WriteLine(card.Suite + " " + card.Rank);
-         
+
+                }
+                Console.ReadLine();
             }
-            Console.ReadLine();
-			}
-        
+
 
         }
 
