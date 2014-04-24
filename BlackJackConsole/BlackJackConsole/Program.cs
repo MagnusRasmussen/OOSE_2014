@@ -10,8 +10,10 @@ namespace BlackJackConsole
 		 
 		 static void Main ()
 		{
-			Deck deck = new Deck ();
-			deck.SetDeck (); 
+            Deck deck = new Deck();
+            deck.SetDeck();
+            deck.Shuffle();
+            deck.DispalyDeck();
 
 
 		}
@@ -28,25 +30,27 @@ namespace BlackJackConsole
 
 		public void DisplayDeck ()
 		{
-			//			int i;
-			//			int j;
-			//
-			//			for (i = 1; i < 52; i++)
-			//			{
-			//				for (j = 1; j < 2; j++)  
-			//				{
-			//				
-			//					Console.Write (deck.cards);
-			//					}
-			//				Console.WriteLine();
-			//					}
-			foreach (var tal in deck.cards) {
-				Console.WriteLine (deck.cards);
-				Console.ReadLine ();
+            int i;
+            //int j;
+
+            for (i = 1; i < 52; i++)
+            {
+                //for (j = 1; j < 2; j++)
+                //{
+                    var card = deck.cards[i];
+                    Console.WriteLine(card.Suite + " " + card.Rank);
+                    Console.ReadLine();
+                //}
+                //Console.WriteLine();
+            }
+            //foreach (var tal in deck.cards) {
+            //    Console.WriteLine (deck.cards);
+            //    Console.ReadLine ();
 			}
+        
 		}
 
 	}
 
-}
+//}
 
