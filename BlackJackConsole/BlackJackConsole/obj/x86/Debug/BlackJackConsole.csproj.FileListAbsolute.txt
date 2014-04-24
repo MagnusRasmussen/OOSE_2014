@@ -11,3 +11,6 @@ C:\Users\Keown\Documents\GitHub\OOSE_2014\BlackJackConsole\BlackJackConsole\obj\
 C:\Users\Keown\Documents\GitHub\OOSE_2014\BlackJackConsole\BlackJackConsole\bin\Debug\BlackJackConsole.exe
 C:\Users\Keown\Documents\GitHub\OOSE_2014\BlackJackConsole\BlackJackConsole\bin\Debug\BlackJackConsole.pdb
 >>>>>>> c9b4e3ffed568a27a3c36d198142f1b648806746
+C:\Users\Magnus\Documents\GitHub\OOSE_2014\BlackJackConsole\BlackJackConsole\bin\Debug\BlackJackConsole.exe
+C:\Users\Magnus\Documents\GitHub\OOSE_2014\BlackJackConsole\BlackJackConsole\bin\Debug\BlackJackConsole.pdb
+C:\Users\Magnus\Documents\GitHub\OOSE_2014\BlackJackConsole\BlackJackConsole\obj\x86\Debug\BlackJackConsole.csprojResolveAssemblyReference.cache

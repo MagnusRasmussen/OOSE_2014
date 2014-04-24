@@ -1,0 +1,4 @@
+C:\Users\Magnus\Documents\Projects\Blackjack_Collected\Blackjack_Collected\bin\Debug\Blackjack_Collected.exe
+C:\Users\Magnus\Documents\Projects\Blackjack_Collected\Blackjack_Collected\bin\Debug\Blackjack_Collected.pdb
+C:\Users\Magnus\Documents\Projects\Blackjack_Collected\Blackjack_Collected\obj\x86\Debug\Blackjack_Collected.exe
+C:\Users\Magnus\Documents\Projects\Blackjack_Collected\Blackjack_Collected\obj\x86\Debug\Blackjack_Collected.pdb
