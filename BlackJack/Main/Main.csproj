@@ -54,6 +54,7 @@
     <Compile Include="Suite.cs" />
     <Compile Include="Rank.cs" />
     <Compile Include="Deck.cs" />
+    <Compile Include="Hand.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

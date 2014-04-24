@@ -17,6 +17,12 @@ namespace Main
 
 //		protected override void OnCreate (Bundle bundle)
 //		{
+//			deck.cards;
+//
+//		}
+
+//		protected override void OnCreate (Bundle bundle)
+//		{
 //			base.OnCreate (bundle);
 //
 ////			// Set our view from the "main" layout resource
@@ -46,21 +52,29 @@ namespace Main
 		{
 			base.OnCreate (bundle);
 
-			//Create the user interface in code
-			var layout = new LinearLayout (this);
-			layout.Orientation = Orientation.Vertical;
+			var thedeck = deck.cards;
 
-			var aLabel = new TextView (this);
-			aLabel.Text = "Hello, Xamarin.Android";
+			var list = new ListView (this);
 
-			var aButton = new Button (this);
-			aButton.Text = "Say Hello";
-			aButton.Click += (sender, e) => {
-				aLabel.Text = "Hello from the button";
-			};
-			layout.AddView (aLabel);
-			layout.AddView (aButton);
-			SetContentView (layout);
+
+//			//Create the user interface in code
+//			var layout = new LinearLayout (this);
+//			layout.Orientation = Orientation.Vertical;
+//
+//			var aLabel = new TextView (this);
+//			aLabel.Text = "Hello, Xamarin.Android";
+//
+//			var aButton = new Button (this);
+//			aButton.Text = "Say Hello";
+//			aButton.Click += (sender, e) => {
+//				aLabel.Text = "Hello from the button";
+//			};
+//			layout.AddView (aLabel);
+//			layout.AddView (aButton);
+
+//			SetContentView (layout);
+			list.AddView (thedeck.);
+			SetContentView (list);
 		}
 
 	}

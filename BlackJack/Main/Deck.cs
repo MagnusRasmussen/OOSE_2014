@@ -6,7 +6,7 @@ namespace Main
 {
 	public class Deck
 	{
-		private List<Card> cards = new List<Card>(52);
+		public List<Card> cards = new List<Card>(52);
 
 		public Deck ()
 		{
@@ -21,18 +21,29 @@ namespace Main
 
 		public void Shuffle()
 		{
-			this.cards.OrderBy(a => Guid.NewGuid());
+			this.cards.OrderBy(a => Guid.NewGuid()).ToList();
 		}
 
-		public void DrawCard()
+		public void Deal(Hand hand)
+		{
+			var card = this.cards.FirstOrDefault();
+			hand.AddCard (card);
+			this.cards.Remove(card);
+
+			card = this.cards.First();
+		}
+
+		public void DrawCard(Hand hand)
 		{
 
+			var card = this.cards.FirstOrDefault();
+			hand.AddCard(this.cards.First());
+			this.cards.Remove(card);
+
+		
 		}
 
-		public void Deal()
-		{
 
-		}
 
 	}
 }
