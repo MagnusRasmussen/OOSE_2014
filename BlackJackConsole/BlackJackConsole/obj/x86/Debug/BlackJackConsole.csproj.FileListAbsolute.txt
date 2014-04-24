@@ -2,3 +2,5 @@ C:\Users\Keown\Documents\BlackJackConsole\BlackJackConsole\bin\Debug\BlackJackCo
 C:\Users\Keown\Documents\BlackJackConsole\BlackJackConsole\bin\Debug\BlackJackConsole.pdb
 C:\Users\Keown\Documents\BlackJackConsole\BlackJackConsole\obj\x86\Debug\BlackJackConsole.exe
 C:\Users\Keown\Documents\BlackJackConsole\BlackJackConsole\obj\x86\Debug\BlackJackConsole.pdb
+C:\Users\Magnus\Documents\GitHub\OOSE_2014\BlackJackConsole\BlackJackConsole\obj\x86\Debug\BlackJackConsole.exe
+C:\Users\Magnus\Documents\GitHub\OOSE_2014\BlackJackConsole\BlackJackConsole\obj\x86\Debug\BlackJackConsole.pdb

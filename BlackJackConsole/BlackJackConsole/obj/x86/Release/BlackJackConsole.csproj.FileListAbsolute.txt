@@ -1,0 +1,4 @@
+C:\Users\Magnus\Documents\GitHub\OOSE_2014\BlackJackConsole\BlackJackConsole\bin\Release\BlackJackConsole.exe
+C:\Users\Magnus\Documents\GitHub\OOSE_2014\BlackJackConsole\BlackJackConsole\bin\Release\BlackJackConsole.pdb
+C:\Users\Magnus\Documents\GitHub\OOSE_2014\BlackJackConsole\BlackJackConsole\obj\x86\Release\BlackJackConsole.exe
+C:\Users\Magnus\Documents\GitHub\OOSE_2014\BlackJackConsole\BlackJackConsole\obj\x86\Release\BlackJackConsole.pdb
