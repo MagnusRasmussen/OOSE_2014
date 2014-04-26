@@ -6,16 +6,17 @@ namespace Blackjack_Collected
 {
 	public class Hand
 	{
-
+		//Here we create a new list of maximum 5 cards since that is the maximum number of cards allowed in blackjack
 		private List<Card> cards = new List<Card>(5);
 
 
-
+		//this class is meant to contain the cards in the hand
 		public Hand ()
 		{
 
 		}
 
+		//this is meant to calculate 
 		public int HandValue()
 		{
 
@@ -24,6 +25,7 @@ namespace Blackjack_Collected
 			for (i = 0; i < cards.Count; i++) {
 
 				var card = cards [i];
+				//this is where we determine whether or not the ace will be a highace or a lowace
 				if (card.Rank == 0 && (handValue + 11) < 22) {
 					handValue = 11;
 				} 

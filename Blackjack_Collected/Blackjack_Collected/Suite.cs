@@ -2,6 +2,7 @@
 
 namespace Blackjack_Collected
 {
+	//Here we define the four possible suits of the cards in the deck
 	public enum Suite
 	{
 		Heart = 1,

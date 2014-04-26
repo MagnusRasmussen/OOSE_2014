@@ -1,0 +1,2 @@
+/Users/nicklasskov/OOSE_2014/Blackjack_Collected/Blackjack_Collected/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/nicklasskov/OOSE_2014/Blackjack_Collected/Blackjack_Collected/obj/x86/Debug/Blackjack_Collected.exe
