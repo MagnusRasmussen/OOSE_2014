@@ -8,7 +8,7 @@ namespace Blackjack_Collected
 		public Suite Suite { get; set;}
 		public Rank Rank { get; set;}
 
-		//why do we create this again ?
+		//This is where we make a construct to contain the card information
 		public Card (Rank rank, Suite suite)
 		{
 			this.Rank = rank;
