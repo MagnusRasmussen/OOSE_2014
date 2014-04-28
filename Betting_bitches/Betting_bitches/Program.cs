@@ -2,18 +2,13 @@
 
 namespace Betting_bitches
 {
-	class MainClass
+	public class Betting
 	{
-		public static void Main (string[] args)
+		public static void Bettor (string[] args)
 		{
-
-
 			int playerMoney = 500;
 
-			string introduction = ("Welcome, please place your bet. Your bank is ");
-			Console.Write (introduction);
-			Console.Write (playerMoney);
-			Console.Write ("$\n");
+			Console.WriteLine ("Welcome, please place your bet. Your bank is {0}$\n", playerMoney);
 
 			bool betValid = false;
 
@@ -26,10 +21,7 @@ namespace Betting_bitches
 				if ((input <= playerMoney) & (input > 0))
 				{
 					int bet = input;
-					Console.Write ("You have chosen to bet ");
-					Console.Write (bet);
-					Console.Write ("$ \n" );
-					Console.WriteLine ("Is this the amount you want to bet?  Y/N");
+					Console.Write ("You have chosen to bet {0}$ \n Is this the amount you want to bet? Y/N", bet);
 
 					ConsoleKeyInfo info = Console.ReadKey();
 
@@ -41,28 +33,19 @@ namespace Betting_bitches
 
 						playerMoney = playerMoney - bet;
 
-						Console.Write ("playermoney = "); Console.Write (playerMoney);
-						Console.WriteLine();
-						Console.Write ("bet = "); Console.Write (bet);
+						Console.Write ("playermoney = {0} \n", playerMoney);
+						Console.Write ("bet = {0} \n", bet);
 
-						Console.ReadLine();
 					}
 
 					if (info.Key == ConsoleKey.N){
-						//Console.ReadLine();
-						//Console.WriteLine ("\nOkay, please re-enter your bet");
-						//betValid = false;
 						Console.ReadLine();
 					}
 				}
 
-				/*else
-				{
-					Console.WriteLine("Sorry, you don't have that much money to bet");
-					betValid = false;
-				}*/
 			} while(!betValid); 
-	
+
 		}
 	}
 }
+

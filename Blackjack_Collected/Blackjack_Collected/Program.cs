@@ -9,8 +9,11 @@ namespace Blackjack_Collected
 		static void Main()
 		{
 			Player player = new Player ();
+			Dealer dealer = new Dealer ();
 			Deck deck = new Deck();
-			Hand hand = new Hand (); 
+			Hand hand = new Hand ();
+			Betting betting = new Betting ();
+
 //			deck.SetDeck();
 //			deck.Shuffle();
 //
@@ -18,7 +21,8 @@ namespace Blackjack_Collected
 //
 //			deck.Deal (player.Hand);
 
-//			deck.Deal(player.Hand);
+//			deck.Deal (player.Hand);
+//			deck.Deal (dealer.Hand);
 			//deck.Deal (hand);
 
 //			deck.DispalyDeck();
@@ -27,6 +31,11 @@ namespace Blackjack_Collected
 //			deck.DrawCard(player.Hand);
 //			deck.DispalyDeck();
 			Console.WriteLine (player.Hand.HandValue);
+			Console.WriteLine (dealer.Hand.HandValue);
+
+			betting.checkForWin (player.Hand.HandValue, dealer.Hand.HandValue);
+
+
 			Console.ReadLine();
 		}
 	}

@@ -6,3 +6,7 @@ C:\Users\Keown\Documents\GitHub\OOSE_2014\Blackjack_Collected\Blackjack_Collecte
 C:\Users\Keown\Documents\GitHub\OOSE_2014\Blackjack_Collected\Blackjack_Collected\bin\Debug\Blackjack_Collected.exe
 C:\Users\Keown\Documents\GitHub\OOSE_2014\Blackjack_Collected\Blackjack_Collected\bin\Debug\Blackjack_Collected.pdb
 C:\Users\Keown\Documents\GitHub\OOSE_2014\Blackjack_Collected\Blackjack_Collected\obj\x86\Debug\Blackjack_Collected.pdb
+C:\Users\Magnus\Documents\GitHub\OOSE_2014\Blackjack_Collected\Blackjack_Collected\obj\x86\Debug\Blackjack_Collected.exe
+C:\Users\Magnus\Documents\GitHub\OOSE_2014\Blackjack_Collected\Blackjack_Collected\bin\Debug\Blackjack_Collected.exe
+C:\Users\Magnus\Documents\GitHub\OOSE_2014\Blackjack_Collected\Blackjack_Collected\bin\Debug\Blackjack_Collected.pdb
+C:\Users\Magnus\Documents\GitHub\OOSE_2014\Blackjack_Collected\Blackjack_Collected\obj\x86\Debug\Blackjack_Collected.pdb

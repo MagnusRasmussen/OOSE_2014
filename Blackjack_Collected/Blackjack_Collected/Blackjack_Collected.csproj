@@ -45,6 +45,7 @@
     <Compile Include="OnTable.cs" />
     <Compile Include="Action.cs" />
     <Compile Include="Dealer.cs" />
+    <Compile Include="Bettor.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

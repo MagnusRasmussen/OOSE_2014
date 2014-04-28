@@ -24,3 +24,4 @@ C:\Users\Keown\Documents\GitHub\OOSE_2014\BlackJack\Main\obj\Debug\res\values\st
 C:\Users\Keown\Documents\GitHub\OOSE_2014\BlackJack\Main\obj\Debug\res\drawable\icon.png
 C:\Users\Keown\Documents\GitHub\OOSE_2014\BlackJack\Main\obj\Debug\R.cs.flag
 C:\Users\Keown\Documents\GitHub\OOSE_2014\BlackJack\Main\obj\Debug\uploadflags.txt
+C:\Users\Magnus\Documents\GitHub\OOSE_2014\BlackJack\Main\obj\Debug\Main.dll
