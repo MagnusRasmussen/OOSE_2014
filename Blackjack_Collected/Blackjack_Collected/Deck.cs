@@ -26,17 +26,22 @@ namespace Blackjack_Collected
 		// here we randomise the cards in the list in order to mirror a real life shuffleing
 		public void Shuffle()
 		{
-			cards = cards.OrderBy(c => Guid.NewGuid()).ToList();     
+			cards = cards.OrderBy(c => Guid.NewGuid()).ToList(); 
+			//Console.WriteLine("Shuffling");
 		
 		}
 		//this is used to deal two cards and  then remove them from the deck afterwards
 		public void Deal(Hand hand)
 		{
-			for (int deal = 0; deal > 2; deal++) {
+
+			for (int deal = 0; deal < 2; deal++) {
 				var card = this.cards.FirstOrDefault ();
 				hand.AddCard (card);
 				this.cards.Remove (card);
+
+//				Console.WriteLine((int)deal);
 			}
+			Console.WriteLine("Dealing cards");
 
 
 		}
@@ -47,6 +52,8 @@ namespace Blackjack_Collected
 			var card = this.cards.FirstOrDefault();
 			hand.AddCard(this.cards.First());
             this.cards.Remove(card);
+
+			Console.WriteLine ("Drawing a card");
             		
 		}
 
@@ -64,7 +71,8 @@ namespace Blackjack_Collected
 					Console.WriteLine(card.Suite + " " + (int)card.Rank);
 
                 }
-                Console.ReadLine();
+				Console.WriteLine ((int)cards.Count);
+//                Console.ReadLine();
             }
 
 

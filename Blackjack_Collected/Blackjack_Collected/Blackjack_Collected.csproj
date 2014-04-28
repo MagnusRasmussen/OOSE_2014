@@ -41,6 +41,8 @@
     <Compile Include="Hand.cs" />
     <Compile Include="Rank.cs" />
     <Compile Include="Suite.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="OnTable.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
