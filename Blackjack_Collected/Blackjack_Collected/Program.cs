@@ -14,29 +14,43 @@ namespace Blackjack_Collected
 			Hand hand = new Hand ();
 			Betting betting = new Betting ();
 
-//			deck.SetDeck();
-//			deck.Shuffle();
+			deck.SetDeck();
+			deck.Shuffle();
 //
 //			deck.DispalyDeck();
 //
-//			deck.Deal (player.Hand);
+			deck.Deal (player.Hand);
 
 //			deck.Deal (player.Hand);
-//			deck.Deal (dealer.Hand);
+			deck.Deal (dealer.Hand);
 			//deck.Deal (hand);
 
 //			deck.DispalyDeck();
 //			player.Hand.ShowHand ();
-//			player.Hand.ShowHand ();
+			player.Hand.ShowHand ();
 //			deck.DrawCard(player.Hand);
 //			deck.DispalyDeck();
 			Console.WriteLine (player.Hand.HandValue);
 			Console.WriteLine (dealer.Hand.HandValue);
 
-			betting.checkForWin (player.Hand.HandValue, dealer.Hand.HandValue);
+			//betting.checkForWin (player.Hand.HandValue, dealer.Hand.HandValue);
 
+			while (true) {
+				var key = Console.ReadKey (true);
 
-			Console.ReadLine();
+				switch (key.Key) {
+				case ConsoleKey.S:
+					betting.checkForWin (player.Hand.HandValue, dealer.Hand.HandValue);
+					break;
+				case ConsoleKey.D:
+					deck.DrawCard (player.Hand);
+					player.Hand.ShowHand ();
+					Console.WriteLine (player.Hand.HandValue);
+					betting.checkForBust (player.Hand.HandValue, false);
+					break;
+				}
+			}
+			//Console.ReadLine();
 		}
 	}
 }

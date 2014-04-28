@@ -76,7 +76,22 @@ namespace Blackjack_Collected
 				Console.WriteLine ("You win!");
 			}
 		}
-//		public void checkForWin(int playerValue, int dealerValue)
+
+		public void checkForBust(int value, bool dealer)
+		{
+			if (value > 21 && dealer) {
+				Console.WriteLine ("You win!, Dealer Bust");
+			}
+			else if (value > 21 && !dealer)
+			{
+				Console.WriteLine ("You Bust, The Dealer wins!");
+			} 
+
+
+		}
+
+
+		//		public void checkForWin(int playerValue, int dealerValue)
 //		{
 //
 //			if ((Player.Hand.HandValue == 21) & (Dealer.Hand.HandValue == 21))
