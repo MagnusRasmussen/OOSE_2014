@@ -59,9 +59,7 @@ namespace Blackjack_Collected
 				var acesCount = this.cards.Count (c => c.Rank == Rank.Ace);
 
 				handValue = cards.Select (c => (int)c.Rank > 1 && (int)c.Rank < 11 ? (int)c.Rank : 10).Sum ();
-				//handValue = cards.Select (c => (int)c.Rank > 1 && (int)c.Rank < 11 ? (int)c.Rank : 10).Sum ();
-				//handValue = cards.Select (c => (int)c.Rank = 1 ? 11 : 0).;
-
+	
 				while (acesCount > 0) {
 					handValue += 1;
 					acesCount--;

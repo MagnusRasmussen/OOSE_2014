@@ -43,6 +43,8 @@
     <Compile Include="Suite.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="OnTable.cs" />
+    <Compile Include="Action.cs" />
+    <Compile Include="Dealer.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

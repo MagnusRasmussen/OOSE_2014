@@ -2,11 +2,13 @@
 
 namespace Blackjack_Collected
 {
-	public class OnTable
+	public abstract class OnTable
 	{
 		public OnTable ()
 		{
 		}
+
+		public Hand Hand { get;  set; }
 	}
 }
 

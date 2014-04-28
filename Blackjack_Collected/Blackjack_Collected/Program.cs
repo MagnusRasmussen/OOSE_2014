@@ -8,22 +8,25 @@ namespace Blackjack_Collected
 		//here we load the differnt things we want to run into the main
 		static void Main()
 		{
-//			Player player = new Player ();
+			Player player = new Player ();
 			Deck deck = new Deck();
 			Hand hand = new Hand (); 
-			deck.SetDeck();
-			deck.Shuffle();
-
-			deck.DispalyDeck();
-
+//			deck.SetDeck();
+//			deck.Shuffle();
+//
+//			deck.DispalyDeck();
+//
+//			deck.Deal (player.Hand);
 
 //			deck.Deal(player.Hand);
-			deck.Deal (hand);
+			//deck.Deal (hand);
 
-			deck.DispalyDeck();
+//			deck.DispalyDeck();
 //			player.Hand.ShowHand ();
-			hand.ShowHand ();
-			Console.WriteLine (hand.HandValue);
+//			player.Hand.ShowHand ();
+//			deck.DrawCard(player.Hand);
+//			deck.DispalyDeck();
+			Console.WriteLine (player.Hand.HandValue);
 			Console.ReadLine();
 		}
 	}
