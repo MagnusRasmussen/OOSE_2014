@@ -1,14 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Blackjack_Collected/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Blackjack_Collected\Bettor.cs">
     <Files>
-      <File FileName="Blackjack_Collected/Bettor.cs" Line="7" Column="18" />
-      <File FileName="Blackjack_Collected/Program.cs" Line="47" Column="10" />
-      <File FileName="Blackjack_Collected/Dealer.cs" Line="1" Column="1" />
-      <File FileName="Blackjack_Collected/Hand.cs" Line="1" Column="1" />
-      <File FileName="Blackjack_Collected/Action.cs" Line="1" Column="1" />
-      <File FileName="Blackjack_Collected/Card.cs" Line="1" Column="1" />
-      <File FileName="Blackjack_Collected/Deck.cs" Line="1" Column="1" />
+      <File FileName="Blackjack_Collected\Action.cs" Line="1" Column="1" />
+      <File FileName="Blackjack_Collected\Bettor.cs" Line="53" Column="6" />
+      <File FileName="Blackjack_Collected\Program.cs" Line="46" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

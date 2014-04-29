@@ -33,17 +33,11 @@ namespace Blackjack_Collected
 		//this is used to deal two cards and  then remove them from the deck afterwards
 		public void Deal(Hand hand)
 		{
+			var card = this.cards.FirstOrDefault ();
+			hand.AddCard (card);
+			this.cards.Remove (card);
 
-			for (int deal = 0; deal < 2; deal++) {
-				var card = this.cards.FirstOrDefault ();
-				hand.AddCard (card);
-				this.cards.Remove (card);
-
-//				Console.WriteLine((int)deal);
-			}
-			Console.WriteLine("Dealing cards");
-
-
+			//Console.WriteLine("Dealing cards");
 		}
 		//this is used to draw one card and  then remove that card from the link afterwards
 		public void DrawCard(Hand hand)
