@@ -5,6 +5,16 @@ namespace Blackjack_Collected
 	public class Betting
 	{
 		public bool stand = false;
+//		int returnBet = 0;
+//		public int playerMoney = 500;
+//		public int bet = 0;
+//
+//		Player.Money money = new Player.Money (); 
+//		public Betting ()
+//		{
+//			money.playerMoney = 500;
+//			money.bet = 0;
+//		}
 
 		public void calcBet(int playerMoney, int bet)
 		{
@@ -34,21 +44,36 @@ namespace Blackjack_Collected
 
 						playerMoney -= bet;
 
+//						money.playerMoney = playerMoney;
+//						money.bet = bet;
+
+
+
 						Console.Write ("playermoney = {0} \n", playerMoney);
 						Console.Write ("bet = {0} \n", bet);
+
+
 
 					}
 
 					if (info.Key == ConsoleKey.N){
 						Console.ReadLine();
 					}
+
+
 				}
 
 			} while(!betValid); 
 
+//			returnBet = BetReturn(playerMoney, bet);
+
+			 
+
+
+
 		}
 
-		public void checkForWin(int playerValue, int dealerValue, int bet, int newBalance)
+		public int checkForWin(int playerValue, int dealerValue, int bet, int newBalance)
 		{
 			//int winnings = 0;
 		
@@ -57,26 +82,38 @@ namespace Blackjack_Collected
 
 			if (playerValue < 22 && dealerValue > 21) {
 				Console.WriteLine ("You win!, Dealer Bust");
+				newBalance = newBalance + bet * 2;
 			} else if (playerValue > 21 && dealerValue < 22) {
 				Console.WriteLine ("You Bust, The Dealer wins!");
+				newBalance  = newBalance + bet *2;
 			} else if (stand) { 
 
 				if ((playerValue == 21) & (dealerValue == 21)) {
 					Console.WriteLine ("Both You and the Dealer has a BlackJack!");
+					newBalance = newBalance + bet * 2;
 				} else if (playerValue == 21) {
 					Console.WriteLine ("You have a BlackJack!");
+					newBalance  = newBalance + bet *2;
 				} else if (dealerValue == 21) {
 					Console.WriteLine ("The Dealer has a BlackJack!");
+					newBalance  = newBalance + bet *2;
 				} else if (playerValue == dealerValue) {
 					Console.WriteLine ("It's a tie!");
+					newBalance = newBalance + bet * 2;
 				} else if (playerValue < dealerValue) {
 					Console.WriteLine ("The Dealer wins!");
+					newBalance  = newBalance + bet *2;
 				} else if (playerValue > dealerValue) {
 					Console.WriteLine ("You win!");
+					newBalance = newBalance + bet * 2;
 				}
 			}
 
+//			money.playerMoney = newBalance;
+
 			Console.WriteLine ("Your bank is {0} ", newBalance);
+
+			return newBalance;
 			//newBalance = playerMoney + winnings;
 			//return playerMoney;
 		}

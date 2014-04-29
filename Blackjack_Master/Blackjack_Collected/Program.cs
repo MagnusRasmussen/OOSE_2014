@@ -12,8 +12,9 @@ namespace Blackjack_Collected
 			Hand hand = new Hand ();
 			Betting betting = new Betting ();
 
-			int playerMoney = 500;
-			int bet = 0;
+//			Player.Money money = new Player.Money (); 
+//			money.playerMoney = 500;
+//			money.bet = 0;
 
 			deck.SetDeck();
 			deck.Shuffle();
@@ -22,7 +23,19 @@ namespace Blackjack_Collected
 //			deck.DispalyDeck();
 			#endregion
 
+			int playerMoney = 500;
+			int bet = 0;
+
 			betting.calcBet (playerMoney, bet);
+
+
+
+		
+
+//			betting.calcBet (money.playerMoney, money.bet);
+
+//			playerMoney = money.playerMoney;
+//			bet = money.bet;
 
 			deck.Deal (player.Hand);
 			deck.Deal (player.Hand);
@@ -46,13 +59,17 @@ namespace Blackjack_Collected
 
 					betting.stand = true;
 					//betting.checkForBust (player.Hand.HandValue, dealer.Hand.HandValue);
-					betting.checkForWin (player.Hand.HandValue, dealer.Hand.HandValue, bet, playerMoney);
+					int blabla = betting.checkForWin (player.Hand.HandValue, dealer.Hand.HandValue,  bet, playerMoney);
+
+					//int blabla = betting.checkForWin (playerMoney);
+					Console.WriteLine (blabla);
 					break;
 				case ConsoleKey.D: // Draw
 					deck.DrawCard (player.Hand);
 					player.Hand.ShowHand ();
 					//betting.checkForBust (player.Hand.HandValue, dealer.Hand.HandValue);
-					betting.checkForWin (player.Hand.HandValue, dealer.Hand.HandValue, bet, playerMoney);
+					Console.WriteLine (bet);
+					betting.checkForWin (player.Hand.HandValue, dealer.Hand.HandValue,  bet, playerMoney);
 					break;
 				case ConsoleKey.P:
 					player.Hand.cards.Clear ();

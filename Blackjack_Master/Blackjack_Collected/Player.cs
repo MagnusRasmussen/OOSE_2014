@@ -11,6 +11,12 @@ namespace Blackjack_Collected
 			this.Hand = new Hand();
 		}
 
+
+		public class Money
+		{
+			public int playerMoney{ get; set;}
+			public int bet { get; set;}
+		}
 	
 	}
 }
