@@ -40,13 +40,17 @@ namespace Blackjack_Collected
 
 			while (true) {
 				var key = Console.ReadKey (true);
+			
 
 				switch (key.Key) {
 				case ConsoleKey.S: // Stand
-					while (dealer.Hand.HandValue < 17) {
+					while (dealer.Hand.HandValue < 17 && dealer.Hand.HandValue < player.Hand.HandValue) {
 						deck.DrawCard (dealer.Hand);
 					}
+
+					betting.stand = true;
 					betting.checkForBust (player.Hand.HandValue, dealer.Hand.HandValue);
+
 
 					break;
 				case ConsoleKey.D: // Draw
@@ -56,10 +60,14 @@ namespace Blackjack_Collected
 					betting.checkForBust (player.Hand.HandValue, dealer.Hand.HandValue);
 					break;
 				case ConsoleKey.P:
-					player.Hand.cards.Clear();
-					dealer.Hand.cards.Clear();
-					deck.Deal(player.Hand);
-					deck.Deal(dealer.Hand);
+					player.Hand.cards.Clear ();
+					dealer.Hand.cards.Clear ();
+					deck.Deal (player.Hand);
+					deck.Deal (dealer.Hand);
+					player.Hand.ShowHand ();
+					Console.WriteLine (player.Hand.HandValue);
+					Console.WriteLine ((int)dealer.Hand.cards [0].Rank);
+					betting.stand = false;
 				default:
 					break;
 				}

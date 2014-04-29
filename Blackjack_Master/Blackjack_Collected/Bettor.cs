@@ -4,6 +4,8 @@ namespace Blackjack_Collected
 {
 	public class Betting
 	{
+		public bool stand = false;
+
 		public void calcBet(int playerMoney, int bet)
 		{
 			playerMoney = 500;
@@ -102,7 +104,8 @@ namespace Blackjack_Collected
 				Console.WriteLine ("Dealer: " + dealerValue);
 				Console.WriteLine ("You Bust, The Dealer wins!");
 			} 
-			else{ checkForWin (playerValue, dealerValue);
+			else if (stand)
+			{ checkForWin (playerValue, dealerValue);
 			}
 
 		}
