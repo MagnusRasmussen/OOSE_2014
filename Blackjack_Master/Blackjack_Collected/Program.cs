@@ -81,6 +81,10 @@ namespace Blackjack_Collected
 					betting.checkForWin (player.Hand.HandValue, dealer.Hand.HandValue,  bet, playerMoney);
 					break;
 				case ConsoleKey.P:
+					deck.SetDeck();
+					deck.Shuffle();
+					betting.calcBet (playerMoney, bet);
+
 					player.Hand.cards.Clear ();
 					dealer.Hand.cards.Clear ();
 					deck.Deal (player.Hand);

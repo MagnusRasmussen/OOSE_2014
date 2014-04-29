@@ -2,8 +2,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Blackjack_Collected/Program.cs">
     <Files>
-      <File FileName="Blackjack_Collected/Program.cs" Line="97" Column="56" />
-      <File FileName="Blackjack_Collected/Bettor.cs" Line="113" Column="28" />
+      <File FileName="Blackjack_Collected/Program.cs" Line="88" Column="10" />
+      <File FileName="Blackjack_Collected/Bettor.cs" Line="1" Column="1" />
       <File FileName="Blackjack_Collected/Rank.cs" Line="1" Column="1" />
       <File FileName="Blackjack_Collected/Suite.cs" Line="1" Column="1" />
       <File FileName="Blackjack_Collected/Hand.cs" Line="1" Column="1" />
