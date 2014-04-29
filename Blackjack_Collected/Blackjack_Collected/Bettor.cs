@@ -53,26 +53,38 @@ namespace Blackjack_Collected
 
 			if ((playerValue == 21) & (dealerValue == 21))
 			{
+				Console.WriteLine ("You: " + playerValue);
+				Console.WriteLine ("Dealer: " + dealerValue);
 				Console.WriteLine ("Both You and the Dealer has a BlackJack!");
 			}
 			else if (playerValue == 21)
 			{
+				Console.WriteLine ("You: " + playerValue);
+				Console.WriteLine ("Dealer: " + dealerValue);
 				Console.WriteLine ("You have a BlackJack!");
 			} 
 			else if (dealerValue == 21) 
 			{
+				Console.WriteLine ("You: " + playerValue);
+				Console.WriteLine ("Dealer: " + dealerValue);
 				Console.WriteLine ("The Dealer has a BlackJack!");
 			}
 			else if (playerValue == dealerValue)
 			{
+				Console.WriteLine ("You: " + playerValue);
+				Console.WriteLine ("Dealer: " + dealerValue);
 				Console.WriteLine ("It's a tie!");
 			}
 			else if (playerValue < dealerValue)
 			{
+				Console.WriteLine ("You: " + playerValue);
+				Console.WriteLine ("Dealer: " + dealerValue);
 				Console.WriteLine ("The Dealer wins!");
 			} 
 			else if (playerValue > dealerValue)
 			{
+				Console.WriteLine ("You: " + playerValue);
+				Console.WriteLine ("Dealer: " + dealerValue);
 				Console.WriteLine ("You win!");
 			}
 		}
@@ -84,7 +96,8 @@ namespace Blackjack_Collected
 			}
 			else if (value > 21 && !dealer)
 			{
-				Console.WriteLine ("You Bust, The Dealer wins!");
+
+				Console.WriteLine (value +" You Bust, The Dealer wins!");
 			} 
 
 

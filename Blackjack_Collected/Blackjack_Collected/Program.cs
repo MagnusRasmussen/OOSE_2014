@@ -31,22 +31,31 @@ namespace Blackjack_Collected
 //			deck.DrawCard(player.Hand);
 //			deck.DispalyDeck();
 			Console.WriteLine (player.Hand.HandValue);
-			Console.WriteLine (dealer.Hand.HandValue);
+			//Console.WriteLine (dealer.Hand.HandValue);
+			Console.WriteLine ((int)dealer.Hand.cards[0].Rank); // Only shows dealers first card
 
 			//betting.checkForWin (player.Hand.HandValue, dealer.Hand.HandValue);
+
+
 
 			while (true) {
 				var key = Console.ReadKey (true);
 
 				switch (key.Key) {
-				case ConsoleKey.S:
+				case ConsoleKey.S: // Stand
+					while (dealer.Hand.HandValue < 17)
+					{
+						deck.DrawCard (dealer.Hand);
+					}
 					betting.checkForWin (player.Hand.HandValue, dealer.Hand.HandValue);
 					break;
-				case ConsoleKey.D:
+				case ConsoleKey.D: // Draw
 					deck.DrawCard (player.Hand);
 					player.Hand.ShowHand ();
 					Console.WriteLine (player.Hand.HandValue);
 					betting.checkForBust (player.Hand.HandValue, false);
+					break;
+				default:
 					break;
 				}
 			}

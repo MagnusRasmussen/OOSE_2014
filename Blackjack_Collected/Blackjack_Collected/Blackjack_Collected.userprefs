@@ -1,14 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Hand.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Bettor.cs">
     <Files>
-      <File FileName="Deck.cs" Line="56" Column="41" />
-      <File FileName="Hand.cs" Line="51" Column="21" />
-      <File FileName="Program.cs" Line="34" Column="1" />
-      <File FileName="Player.cs" Line="11" Column="4" />
+      <File FileName="Deck.cs" Line="55" Column="4" />
+      <File FileName="Hand.cs" Line="56" Column="4" />
+      <File FileName="Program.cs" Line="51" Column="12" />
+      <File FileName="Player.cs" Line="18" Column="1" />
       <File FileName="OnTable.cs" Line="1" Column="1" />
-      <File FileName="Action.cs" Line="7" Column="3" />
-      <File FileName="Dealer.cs" Line="14" Column="1" />
+      <File FileName="Bettor.cs" Line="78" Column="39" />
+      <File FileName="Card.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

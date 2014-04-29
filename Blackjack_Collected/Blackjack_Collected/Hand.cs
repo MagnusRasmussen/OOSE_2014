@@ -20,41 +20,7 @@ namespace Blackjack_Collected
 		public int HandValue
 		{
 			get{
-//			int i;
 				int handValue;
-//			// for-loop goes though the each card in
-//			for (i = 0; i < cards.Count; i++) {
-//
-//				var card = cards [i];
-//				//this is where we determine whether or not the ace will be a highace or a lowace
-//				if (card.Rank == 0 && (handValue + 11) < 22) { // should be rewritten to under 
-//					handValue = 11;
-//				} 
-//				else {
-//					handValue = 1;
-//				}
-//
-//				if (card.Rank > 9) {
-//					handValue = 10;
-//				} 
-//				else {
-//					handValue = (int)card.Rank + 1;
-//				}
-//				handValue += HandValue;
-//
-//			}
-//
-//			if (cards.Count < 5) {
-//
-//			} 
-//			else {
-//				//PLAYER WON!!
-//			}
-////
-
-
-				// Other solution
-
 				var aces = this.cards.Count (c => c.Rank == Rank.Ace);
 				var acesCount = this.cards.Count (c => c.Rank == Rank.Ace);
 
@@ -86,7 +52,6 @@ namespace Blackjack_Collected
 					Console.WriteLine(card.Suite + " " + card.Rank);
 
 				}
-				//Console.WriteLine(HandValue);
 			}
 
 
