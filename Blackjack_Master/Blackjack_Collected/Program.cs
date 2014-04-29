@@ -46,15 +46,20 @@ namespace Blackjack_Collected
 					while (dealer.Hand.HandValue < 17) {
 						deck.DrawCard (dealer.Hand);
 					}
-					betting.checkForBust (dealer.Hand.HandValue, true);
-					betting.checkForWin (player.Hand.HandValue, dealer.Hand.HandValue);
+					betting.checkForBust (player.Hand.HandValue, dealer.Hand.HandValue);
+
 					break;
 				case ConsoleKey.D: // Draw
 					deck.DrawCard (player.Hand);
 					player.Hand.ShowHand ();
 					Console.WriteLine (player.Hand.HandValue);
-					betting.checkForBust (player.Hand.HandValue, false);
+					betting.checkForBust (player.Hand.HandValue, dealer.Hand.HandValue);
 					break;
+				case ConsoleKey.P:
+					player.Hand.cards.Clear();
+					dealer.Hand.cards.Clear();
+					deck.Deal(player.Hand);
+					deck.Deal(dealer.Hand);
 				default:
 					break;
 				}
