@@ -12,6 +12,11 @@ namespace Blackjack_Collected
 			Hand hand = new Hand ();
 			Betting betting = new Betting ();
 
+			Console.WriteLine ("\n\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n");
+			Console.WriteLine("Welcome to an experience of a lifetime!!!\nWelcome to a BlackJack game created by:\nKevin, Magnus & Nicklas");
+			Console.WriteLine ("\n\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n");
+
+	
 //			Player.Money money = new Player.Money (); 
 //			money.playerMoney = 500;
 //			money.bet = 0;
@@ -41,11 +46,15 @@ namespace Blackjack_Collected
 			deck.Deal (player.Hand);
 
 			deck.Deal (dealer.Hand);
-
+			Console.WriteLine ("\n\nThese were your draws:");
 			player.Hand.ShowHand ();
-
+			Console.WriteLine ("With a combined value of");
 			Console.WriteLine (player.Hand.HandValue);
+			Console.WriteLine ("\n\nThe dealer draws:");
+			dealer.Hand.ShowHand ();
+			Console.WriteLine ("\nThe dealer has a combined value of");
 			Console.WriteLine ((int)dealer.Hand.cards[0].Rank); // Only shows dealers first card
+			Console.WriteLine ("Press 's' if you wish to stand and press 'd' if you wish to draw another card");
 	
 			while (true) {
 				var key = Console.ReadKey (true);
@@ -77,9 +86,15 @@ namespace Blackjack_Collected
 					deck.Deal (player.Hand);
 					deck.Deal (player.Hand);
 					deck.Deal (dealer.Hand);
+					Console.WriteLine ("\n\nThese were your draws:");
 					player.Hand.ShowHand ();
+					Console.WriteLine ("With a combined value of");
 					Console.WriteLine (player.Hand.HandValue);
-					Console.WriteLine ((int)dealer.Hand.cards [0].Rank);
+					Console.WriteLine ("\n\nThe dealer draws:");
+					dealer.Hand.ShowHand ();
+					Console.WriteLine ("\nThe dealer has a combined value of");
+					Console.WriteLine ((int)dealer.Hand.cards[0].Rank); // Only shows dealers first card
+					Console.WriteLine ("Press 's' if you wish to stand and press 'd' if you wish to draw another card");
 					betting.stand = false;
 					break;
 				default:

@@ -43,13 +43,13 @@ namespace Blackjack_Collected
 		{
 			{
 				int i;
-				Console.WriteLine("IN HAND ");
+				//Console.WriteLine("\n\ncheck");
 				for (i = 0; i < cards.Count; i++)
 				{
 
 					var card = cards[i];
 
-					Console.WriteLine(card.Suite + " " + card.Rank);
+					Console.WriteLine(card.Rank + " of " + card.Suite);
 
 				}
 			}

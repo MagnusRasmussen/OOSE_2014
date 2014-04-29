@@ -110,9 +110,9 @@ namespace Blackjack_Collected
 			}
 
 //			money.playerMoney = newBalance;
-
-			Console.WriteLine ("Your bank is {0} ", newBalance);
-
+			Console.WriteLine ("\n\nIf you wish to play another game press 'p' \n");
+			//Console.WriteLine ("Your bank is now at {0} ", newBalance);
+			Console.WriteLine ("Your bank total is currently at:");
 			return newBalance;
 			//newBalance = playerMoney + winnings;
 			//return playerMoney;
