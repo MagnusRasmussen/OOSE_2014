@@ -23,3 +23,8 @@ C:\Users\SknakJacobsen\Desktop\Blackjack_Master\Blackjack_Collected\bin\Debug\Bl
 C:\Users\SknakJacobsen\Desktop\Blackjack_Master\Blackjack_Collected\bin\Debug\Blackjack_Collected.pdb
 C:\Users\SknakJacobsen\Desktop\Blackjack_Master\Blackjack_Collected\obj\x86\Debug\Blackjack_Collected.csprojResolveAssemblyReference.cache
 C:\Users\SknakJacobsen\Desktop\Blackjack_Master\Blackjack_Collected\obj\x86\Debug\Blackjack_Collected.pdb
+C:\Users\Keown\Documents\GitHub\OOSE_2014\Blackjack_Master_final\Blackjack_Collected\obj\x86\Debug\Blackjack_Collected.exe
+C:\Users\Keown\Documents\GitHub\OOSE_2014\Blackjack_Master_final\Blackjack_Collected\obj\x86\Debug\Blackjack_Collected.pdb
+C:\Users\Keown\Documents\GitHub\OOSE_2014\Blackjack_Master_final\Blackjack_Collected\bin\Debug\Blackjack_Collected.exe
+C:\Users\Keown\Documents\GitHub\OOSE_2014\Blackjack_Master_final\Blackjack_Collected\bin\Debug\Blackjack_Collected.pdb
+C:\Users\Keown\Documents\GitHub\OOSE_2014\Blackjack_Master_final\Blackjack_Collected\obj\x86\Debug\Blackjack_Collected.csprojResolveAssemblyReference.cache

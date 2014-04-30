@@ -25,15 +25,16 @@ namespace Blackjack_Collected
 			do{
 				Console.WriteLine ("How much do you want to wager?");
 
-
+				// Converts written numbers in the console
 				int input = Convert.ToInt32 (Console.ReadLine());
 
-
+				// Checks if number written is highere than the money allow and that the value is a positive number
 				if ((input <= playerMoney) & (input > 0))
 				{
 					bet = input;
 					Console.Write ("You have chosen to bet {0}$ \n Is this the amount you want to bet? Y/N\n", bet);
 
+					// Reads keyboard input
 					ConsoleKeyInfo info = Console.ReadKey();
 
 					if (info.Key == ConsoleKey.Y){
@@ -44,15 +45,8 @@ namespace Blackjack_Collected
 
 						playerMoney -= bet;
 
-//						money.playerMoney = playerMoney;
-//						money.bet = bet;
-
-
-
 						Console.Write ("playermoney = {0} \n", playerMoney);
 						Console.Write ("bet = {0} \n", bet);
-
-
 
 					}
 
@@ -64,7 +58,7 @@ namespace Blackjack_Collected
 				}
 
 			} while(!betValid);
-
+			//returns bet to program class
 		    return bet;
         }
 
@@ -75,6 +69,7 @@ namespace Blackjack_Collected
 			Console.WriteLine ("You: " + playerValue);
 			Console.WriteLine ("Dealer: " + dealerValue);
 
+			// The rules for this black game. It check if either player or dealer is bust and then who has won.
 		    if (playerValue < 22 && dealerValue > 21)
 		    {
 		        Console.WriteLine("You win!, Dealer Bust");
@@ -118,34 +113,15 @@ namespace Blackjack_Collected
 		        newBalance = newBalance + bet * 2;
 		    }
 
-		    //money.playerMoney = newBalance;
+	
 			Console.WriteLine("\n\nIf you wish to play another game press 'p' \n");
-			//Console.WriteLine ("Your bank is now at {0} ", newBalance);
 			Console.WriteLine("Your bank total is currently at:");
+
+			// Returns new value
 			return newBalance;
-			//newBalance = playerMoney + winnings;
-			//return playerMoney;
+
 		}
 
-//		public void checkForBust(int playerValue, int dealerValue)
-//		{
-//			Console.WriteLine ("You: " + playerValue);
-//			Console.WriteLine ("Dealer: " + dealerValue);
-//
-//			if (playerValue < 22 && dealerValue > 21)
-//			{
-//				Console.WriteLine ("You win!, Dealer Bust");
-//				winnings = playerMoney + bet*2;
-//			}
-//			else if (playerValue > 21 && dealerValue < 22)
-//			{
-//				Console.WriteLine ("You Bust, The Dealer wins!");
-//			} 
-//			else if (stand)
-//			{ checkForWin (playerValue, dealerValue);
-//			}
-//
-//		}
 	}
 }
 
