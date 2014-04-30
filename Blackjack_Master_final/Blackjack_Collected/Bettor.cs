@@ -5,16 +5,6 @@ namespace Blackjack_Collected
 	public class Betting
 	{
 		public bool stand = false;
-//		int returnBet = 0;
-//		public int playerMoney = 500;
-//		public int bet = 0;
-//
-//		Player.Money money = new Player.Money (); 
-//		public Betting ()
-//		{
-//			money.playerMoney = 500;
-//			money.bet = 0;
-//		}
 
 		public int calcBet(int playerMoney, int bet)
 		{
@@ -58,7 +48,7 @@ namespace Blackjack_Collected
 				}
 
 			} while(!betValid);
-			//returns bet to program class
+			// Returns bet to program class
 		    return bet;
         }
 
