@@ -1,18 +1,18 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Blackjack_Collected/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Blackjack_Collected\Action.cs">
     <Files>
-      <File FileName="Blackjack_Collected/Program.cs" Line="11" Column="1" />
-      <File FileName="Blackjack_Collected/Bettor.cs" Line="1" Column="1" />
-      <File FileName="Blackjack_Collected/Rank.cs" Line="1" Column="1" />
-      <File FileName="Blackjack_Collected/Suite.cs" Line="1" Column="1" />
-      <File FileName="Blackjack_Collected/Hand.cs" Line="1" Column="1" />
-      <File FileName="Blackjack_Collected/Card.cs" Line="1" Column="1" />
-      <File FileName="Blackjack_Collected/Dealer.cs" Line="1" Column="1" />
-      <File FileName="Blackjack_Collected/OnTable.cs" Line="1" Column="1" />
-      <File FileName="Blackjack_Collected/Player.cs" Line="1" Column="1" />
-      <File FileName="Blackjack_Collected/Action.cs" Line="1" Column="1" />
-      <File FileName="Blackjack_Collected/Deck.cs" Line="1" Column="1" />
+      <File FileName="Blackjack_Collected\Program.cs" Line="11" Column="1" />
+      <File FileName="Blackjack_Collected\Bettor.cs" Line="1" Column="1" />
+      <File FileName="Blackjack_Collected\Rank.cs" Line="1" Column="1" />
+      <File FileName="Blackjack_Collected\Suite.cs" Line="1" Column="1" />
+      <File FileName="Blackjack_Collected\Hand.cs" Line="1" Column="1" />
+      <File FileName="Blackjack_Collected\Card.cs" Line="1" Column="1" />
+      <File FileName="Blackjack_Collected\Dealer.cs" Line="1" Column="1" />
+      <File FileName="Blackjack_Collected\OnTable.cs" Line="1" Column="1" />
+      <File FileName="Blackjack_Collected\Player.cs" Line="1" Column="1" />
+      <File FileName="Blackjack_Collected\Action.cs" Line="3" Column="30" />
+      <File FileName="Blackjack_Collected\Deck.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
