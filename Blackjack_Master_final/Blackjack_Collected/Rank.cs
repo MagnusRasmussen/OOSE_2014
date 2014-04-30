@@ -2,7 +2,7 @@
 
 namespace Blackjack_Collected
 {
-	//Here we deine the differnt possible values of the cards in the deck
+	//Here we define the differnt possible values of the cards in the deck
 	public enum Rank
 	{
 		Ace = 1,

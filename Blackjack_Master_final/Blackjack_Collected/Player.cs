@@ -8,7 +8,7 @@ namespace Blackjack_Collected
 	{
 		public Player ()
 		{
-			this.Hand = new Hand();
+			this.Hand = new Hand(); // Makes the players hand
 		}
 
 	}

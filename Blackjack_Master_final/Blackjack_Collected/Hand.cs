@@ -9,14 +9,7 @@ namespace Blackjack_Collected
 		//Here we create a new list of maximum 5 cards since that is the maximum number of cards allowed in blackjack
 		public List<Card> cards = new List<Card>(5);
 
-
-		//this class is meant to contain the cards in the hand
-		public Hand ()
-		{
-
-		}
-
-		//this is meant to calculate 
+		// Adds up the hand values of the card rank in the given hand array
 		public int HandValue
 		{
 			get{
@@ -24,14 +17,14 @@ namespace Blackjack_Collected
 				var aces = this.cards.Count (c => c.Rank == Rank.Ace);
 				var acesCount = this.cards.Count (c => c.Rank == Rank.Ace);
 
-				handValue = cards.Select (c => (int)c.Rank > 1 && (int)c.Rank < 11 ? (int)c.Rank : 10).Sum ();
+				handValue = cards.Select (c => (int)c.Rank > 1 && (int)c.Rank < 11 ? (int)c.Rank : 10).Sum (); // Changes value of all facecards and ace to 10
 	
-				while (acesCount > 0) {
+				while (acesCount > 0) { // Fixes high ace to 11
 					handValue += 1;
 					acesCount--;
 				}
 
-				while (handValue > 21 && aces > 0) {
+				while (handValue > 21 && aces > 0) { // If handvalue exceeds 21 and an aces in hand that aces value is changed to 1
 				handValue -= 10;
 				aces--; 
 			}
@@ -44,7 +37,7 @@ namespace Blackjack_Collected
 			{
 				int i;
 				//Console.WriteLine("\n\ncheck");
-				for (i = 0; i < cards.Count; i++)
+				for (i = 0; i < cards.Count; i++) // Display each card in given hand array with suite and rank
 				{
 
 					var card = cards[i];
@@ -58,7 +51,7 @@ namespace Blackjack_Collected
 		}
 
 
-		public void AddCard(Card card)
+		public void AddCard(Card card) // Takes card from deck and add to given hand array
 		{
 			this.cards.Add(card);
 

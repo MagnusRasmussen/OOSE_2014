@@ -53,7 +53,7 @@ namespace Blackjack_Collected
 
 
 		//we use this to check if the deck is actually creating the deck by outputting it to the console
-        public void DispalyDeck()
+		public void DisplayDeck()
         {
             {
                 int i;
