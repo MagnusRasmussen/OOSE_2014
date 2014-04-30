@@ -1,0 +1,20 @@
+/Users/nicklasskov/OOSE_2014/Blackjack_Collected/Blackjack_Collected/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/nicklasskov/OOSE_2014/Blackjack_Collected/Blackjack_Collected/obj/x86/Debug/Blackjack_Collected.exe
+/Users/nicklasskov/OOSE_2014/Blackjack_Collected/Blackjack_Collected/bin/Debug/Blackjack_Collected.exe
+/Users/nicklasskov/OOSE_2014/Blackjack_Collected/Blackjack_Collected/bin/Debug/Blackjack_Collected.exe.mdb
+/Users/nicklasskov/OOSE_2014/Blackjack_Collected/Blackjack_Collected/obj/x86/Debug/Blackjack_Collected.exe.mdb
+/Users/nicklasskov/OOSE_2014/Blackjack_Master/Blackjack_Collected/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/nicklasskov/OOSE_2014/Blackjack_Master/Blackjack_Collected/bin/Debug/Blackjack_Collected.exe.mdb
+/Users/nicklasskov/OOSE_2014/Blackjack_Master/Blackjack_Collected/bin/Debug/Blackjack_Collected.exe
+/Users/nicklasskov/OOSE_2014/Blackjack_Master/Blackjack_Collected/obj/x86/Debug/Blackjack_Collected.exe
+/Users/nicklasskov/OOSE_2014/Blackjack_Master/Blackjack_Collected/obj/x86/Debug/Blackjack_Collected.exe.mdb
+/Users/nicklasskov/Downloads/Blackjack_Master_Søren/Blackjack_Master/Blackjack_Collected/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/nicklasskov/Downloads/Blackjack_Master_Søren/Blackjack_Master/Blackjack_Collected/bin/Debug/Blackjack_Collected.exe.mdb
+/Users/nicklasskov/Downloads/Blackjack_Master_Søren/Blackjack_Master/Blackjack_Collected/bin/Debug/Blackjack_Collected.exe
+/Users/nicklasskov/Downloads/Blackjack_Master_Søren/Blackjack_Master/Blackjack_Collected/obj/x86/Debug/Blackjack_Collected.exe
+/Users/nicklasskov/Downloads/Blackjack_Master_Søren/Blackjack_Master/Blackjack_Collected/obj/x86/Debug/Blackjack_Collected.exe.mdb
+/Users/nicklasskov/Desktop/test for hest/Blackjack_Master_final/Blackjack_Collected/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/nicklasskov/Desktop/test for hest/Blackjack_Master_final/Blackjack_Collected/bin/Debug/Blackjack_Collected.exe.mdb
+/Users/nicklasskov/Desktop/test for hest/Blackjack_Master_final/Blackjack_Collected/bin/Debug/Blackjack_Collected.exe
+/Users/nicklasskov/Desktop/test for hest/Blackjack_Master_final/Blackjack_Collected/obj/x86/Debug/Blackjack_Collected.exe
+/Users/nicklasskov/Desktop/test for hest/Blackjack_Master_final/Blackjack_Collected/obj/x86/Debug/Blackjack_Collected.exe.mdb
